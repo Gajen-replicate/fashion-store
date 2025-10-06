@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fashion Store - Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="home-bg">
+
+  <!-- Header/Navbar -->
+  <header>
+    <div class="logo">👗 FashionHub</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="men.html">Men</a></li>
+        <li><a href="women.html">Women</a></li>
+        <li><a href="kids.html">Kids</a></li>
+        <li><a href="accessories.html">Accessories</a></li>
+      </ul>
+    </nav>
+    <div class="icons">
+      <input type="text" placeholder="🔍 Search">
+      <a href="cart.html">🛒 <span id="cart-count">0</span></a>
+      <a href="login.html">👤</a>
+    </div>
+  </header>
+
+  <!-- Hero Banner -->
+  <section class="hero">
+    <h1>🔥 Big Sale is Here 🔥</h1>
+    <p>Up to 60% Off on Trendy Collections</p>
+    <a href="women.html" class="btn">Shop Now</a>
+  </section>
+
+  <!-- Categories -->
+  <section class="categories">
+    <h2>Shop by Category</h2>
+    <div class="category-grid">
+      <div class="cat-card men">Men</div>
+      <div class="cat-card women">Women</div>
+      <div class="cat-card kids">Kids</div>
+      <div class="cat-card accessories">Accessories</div>
+    </div>
+  </section>
+
+  <!-- Featured Products -->
+  <section class="products">
+    <h2>✨ Featured Products</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="assets/shirt1.jpg" alt="Shirt">
+        <h3>Casual Shirt</h3>
+        <p>₹799</p>
+        <button onclick="addToCart()">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="assets/dress1.jpg" alt="Dress">
+        <h3>Floral Dress</h3>
+        <p>₹1199</p>
+        <button onclick="addToCart()">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="assets/shoes1.jpg" alt="Shoes">
+        <h3>Stylish Shoes</h3>
+        <p>₹1599</p>
+        <button onclick="addToCart()">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 FashionHub | Follow us: 🌐 Facebook | 📸 Instagram | 🐦 Twitter</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

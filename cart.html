@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cart — DressLab</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-cart">
+
+  <header class="site-header">
+    <div class="brand"><a href="index.html">DressLab</a></div>
+    <nav class="site-nav">
+      <a href="index.html">Continue Shopping</a>
+    </nav>
+  </header>
+
+  <main class="container cart-container">
+    <h1>Your Cart</h1>
+    <div id="cartEmpty" class="cart-empty">Your cart is empty.</div>
+    <div id="cartList" class="cart-list"></div>
+
+    <aside class="cart-summary" id="cartSummary" hidden>
+      <h3>Order Summary</h3>
+      <div class="summary-row"><span>Subtotal</span><span id="summarySubtotal">₹0</span></div>
+      <div class="summary-row"><span>Shipping</span><span id="summaryShipping">₹99</span></div>
+      <div class="summary-row"><strong>Total</strong><strong id="summaryTotal">₹0</strong></div>
+      <button id="checkoutBtn" class="btn primary">Checkout</button>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2025 DressLab</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

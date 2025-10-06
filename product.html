@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Product — DressLab</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-product">
+
+  <header class="site-header">
+    <div class="brand"><a href="index.html">DressLab</a></div>
+    <nav class="site-nav">
+      <a href="cart.html" class="cart-link">Cart (<span id="cart-count">0</span>)</a>
+    </nav>
+  </header>
+
+  <main class="container product-container">
+    <a class="back-link" href="index.html">← Back to catalog</a>
+
+    <section class="product-main">
+      <div class="gallery">
+        <div id="gallery-main" class="gallery-main"></div>
+        <div id="thumbs" class="thumbs"></div>
+      </div>
+
+      <div class="product-info">
+        <h1 id="p-title">Product Title</h1>
+        <div class="meta">
+          <span id="p-brand" class="brand-name">Brand</span>
+          <span id="p-rating" class="rating">★ 4.5</span>
+        </div>
+        <div class="price-row">
+          <div class="price">₹<span id="p-price">1999</span></div>
+          <div class="strike" id="p-mrp">₹2499</div>
+        </div>
+
+        <div class="selectors">
+          <div class="sizes">
+            <label>Size</label>
+            <div id="sizeOptions" class="size-options"></div>
+          </div>
+
+          <div class="colors">
+            <label>Color</label>
+            <div id="colorOptions" class="color-options"></div>
+          </div>
+        </div>
+
+        <div class="cta">
+          <button id="addToCartBtn" class="btn primary">Add to Cart</button>
+          <button id="buyNowBtn" class="btn outline">Buy Now</button>
+        </div>
+
+        <div class="desc">
+          <h3>Product details</h3>
+          <p id="p-desc"></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2025 DressLab</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+0
